@@ -1,0 +1,49 @@
+# Vantis Instruments Ltd. - VT-40 Flow Meter Product Manual
+
+## 1. Overview
+
+The VT-40 Flow Meter is a compact inline sensor manufactured by Vantis Instruments Ltd. It measures volumetric flow rate in litres per minute for liquids carried through rigid pipework up to 40 millimetres in diameter.
+
+Each VT-40 ships with the standard 5 metre shielded cable, the Vantis mounting bracket set, and a calibration certificate that remains valid for 12 months from the date of shipment.
+
+## 2. Installation
+
+The VT-40 must be installed in a straight pipe run with at least 20 diameters of upstream clearance and 10 diameters of downstream clearance measured from the meter body.
+
+Installation on a vertical pipe run is permitted only when flow is upward. Downward flow causes the internal sensor to settle against the upper housing and produces an unstable baseline reading.
+
+The unit is rated for operation between 0 and 45 degrees Celsius and at relative humidity up to 85 percent. It is not rated for outdoor exposure without an additional IP67 weather shroud.
+
+## 3. Calibration
+
+Factory calibration is performed against a reference meter at the Vantis Marrowby laboratory. The supplied certificate records the measured flow error, which is normally within plus or minus 1.5 percent across the mid-range of 5 to 25 litres per minute.
+
+Zero flow calibration must be repeated whenever the meter is moved, or after any replacement of the inlet filter. The procedure isolates flow, enters calibration mode with the three-pin service jumper, and waits for the on-board indicator to pulse twice.
+
+Field calibration against a customer-supplied reference requires that reference meter to be within 0.5 percent of the factory baseline, otherwise the field result is rejected by the firmware.
+
+## 4. Sampling and Output
+
+The VT-40 samples the flow sensor at 5 Hz and publishes a measurement every 200 milliseconds.
+
+Each published message contains the timestamp, the flow rate in litres per minute, the internal sensor temperature in Celsius, and a two-character status code.
+
+The status code OK means that the meter is operating within its calibrated range. The status code OV indicates that the measured rate exceeded 30 litres per minute. The status code SF indicates a sensor fault and should be logged by the host system.
+
+Communications use a 3.3 volt UART interface at 9600 baud with 8 data bits, one stop bit and no parity. A wireless variant, the VT-40W, adds an embedded radio that transmits the same payload at 2 Hz.
+
+## 5. Maintenance and Fault Codes
+
+Scheduled maintenance consists of inspecting the inlet filter every 6 months and replacing it every 12 months. Replacing the filter voids the factory calibration certificate and requires recalibration.
+
+Error code E-11 indicates that the inlet filter is blocked. Error code E-22 indicates that the internal temperature sensor has drifted outside its acceptable band. Error codes beginning with E-9 indicate a wiring fault on the UART bus.
+
+The meter retains a rolling event log of the last 128 entries in non-volatile memory. This log survives a power cycle but is cleared by a full factory reset.
+
+## 6. Warranty
+
+Standard warranty is 24 months from the date of delivery. Extended warranty adds 12 months and is available only through authorised distributors.
+
+Warranty does not cover damage caused by reverse flow, by operation outside the stated temperature range, or by use of third-party replacement filters.
+
+Warranty claims for meters installed outdoors without the approved shroud are rejected.

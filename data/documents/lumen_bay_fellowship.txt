@@ -1,0 +1,53 @@
+# Lumen Bay Labs - Research Fellowship Policy
+
+## 1. Fellowship Schemes
+
+Lumen Bay Labs awards an annual fellowship to support doctoral research in applied machine learning. The programme is administered by the Lumen Bay research office, which reports to the Lumen Bay scientific council.
+
+The flagship Lumen Bay Doctoral Fellowship carries a stipend of 34,000 credits over three years and is awarded to one candidate each year.
+
+The Lumen Bay Visiting Fellowship is available to researchers from institutions outside the Lumen Bay partner list. It funds travel and accommodation for a maximum stay of 4 months and does not include a stipend.
+
+A separate Lumen Bay Microgrant scheme offers awards of up to 5,000 credits for projects with a planned duration of no more than 12 months.
+
+## 2. Eligibility
+
+Candidates for the Doctoral Fellowship must hold a first-class or second-class degree in a relevant subject. Candidates must not have been enrolled in a doctoral programme for more than 24 months at the time of application.
+
+Candidates who have already completed a doctoral degree are not eligible to apply for the Doctoral Fellowship.
+
+The fellowship is open to candidates of any nationality, but candidates who require a visa to study in Lumen Bay must have been resident in an eligible country for at least 12 months before applying.
+
+Funding is not awarded to candidates who currently hold a permanent research post elsewhere. A fellowship must be the candidate's primary source of research support during the award period.
+
+Researchers with a prior Lumen Bay microgrant may apply for the Doctoral Fellowship, provided the microgrant closed at least 9 months before the application deadline.
+
+## 3. Stipend and Research Expenses
+
+The Doctoral Fellowship stipend is paid monthly by bank transfer on the 28th of each month. A 12 percent contribution is withheld for pension purposes and is paid to the pension provider on the fellowship anniversary.
+
+Research expenses are funded separately from the stipend, up to a total of 7,500 credits per year for equipment and 2,000 credits per year for travel and conference fees.
+
+Funding for a research visit of more than 14 consecutive days requires prior written approval from the research office.
+
+## 4. Duration and Extension
+
+The Doctoral Fellowship runs for three years and may be extended by up to 12 months in exceptional circumstances, subject to council approval. Extensions are not granted as a matter of course.
+
+Visiting Fellowships are limited to a maximum of 4 months in any 24-month period.
+
+## 5. Reporting and Publications
+
+Fellows must submit a written progress report at the end of each 6-month period and a final report within 60 days of the fellowship ending.
+
+Progress reports are reviewed by the Lumen Bay scientific council, which may request a meeting with the fellow and the supervisor.
+
+Any publication arising from fellowship-funded work must acknowledge the Lumen Bay Fellowship and must be deposited in the Lumen Bay repository.
+
+## 6. Conduct and Intellectual Property
+
+Intellectual property arising from fellowship work belongs to the fellow and to the host institution jointly, unless a separate agreement is signed before the fellowship begins.
+
+Fellows must disclose any outside employment or consulting arrangement to the research office within 15 working days of starting, and whenever that arrangement changes.
+
+Ethics approval is required before any work involving human participants, patient data or clinical intervention.
